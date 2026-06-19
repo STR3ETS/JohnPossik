@@ -486,5 +486,15 @@
             .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; padding-top: 0; padding-bottom: 0; }
             .faq-open .faq-answer { max-height: 200px; padding-bottom: 1.5rem; }
         </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelectorAll('video').forEach(function(v) {
+                    v.setAttribute('playsinline', '');
+                    v.setAttribute('webkit-playsinline', '');
+                    v.muted = true;
+                    v.play().catch(function() {});
+                });
+            });
+        </script>
     </body>
 </html>
