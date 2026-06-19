@@ -96,7 +96,7 @@
             <div class="w-full h-fit p-3 relative z-2">
                 <div class="w-full h-[90vh] md:h-[80vh] z-2 relative overflow-visible">
                     <div class="w-full h-full absolute z-3 bg-black/80"></div>
-                    <video src="/assets/intro.mp4" autoplay playsinline muted loop class="absolute z-2 w-full h-full object-cover rounded"></video>
+                    <video autoplay playsinline webkit-playsinline muted loop preload="auto" class="absolute z-2 w-full h-full object-cover rounded"><source src="/assets/intro.mp4" type="video/mp4"></video>
                     <div class="absolute z-5 inset-0 flex items-center justify-center">
                         <div class="max-w-7xl w-full text-left px-4">
                             <p class="text-primary uppercase tracking-widest text-sm mb-6 font-sans font-medium">Kapsalon in Doetinchem</p>
@@ -286,7 +286,7 @@
                 </div>
                 <div class="w-full h-[200px] md:h-[250px] relative overflow-hidden rounded mt-6">
                     <div class="w-full h-full absolute z-2 bg-black/50"></div>
-                    <video src="/assets/intro2.mp4" autoplay playsinline muted loop class="w-full h-full object-cover absolute z-1"></video>
+                    <video autoplay playsinline webkit-playsinline muted loop preload="auto" class="w-full h-full object-cover absolute z-1"><source src="/assets/intro2.mp4" type="video/mp4"></video>
                     <div class="absolute inset-0 z-3 flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-12 gap-4 text-center md:text-left">
                         <div>
                             <h3 class="text-white font-display text-xl md:text-3xl font-bold">Ontdek onze volledige collectie</h3>
@@ -487,14 +487,16 @@
             .faq-open .faq-answer { max-height: 200px; padding-bottom: 1.5rem; }
         </style>
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
+            function playAllVideos() {
                 document.querySelectorAll('video').forEach(function(v) {
-                    v.setAttribute('playsinline', '');
-                    v.setAttribute('webkit-playsinline', '');
                     v.muted = true;
+                    v.playsInline = true;
                     v.play().catch(function() {});
                 });
-            });
+            }
+            document.addEventListener('DOMContentLoaded', playAllVideos);
+            document.addEventListener('touchstart', function() { playAllVideos(); }, { once: true });
+            document.addEventListener('scroll', function() { playAllVideos(); }, { once: true });
         </script>
     </body>
 </html>
