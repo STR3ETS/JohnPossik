@@ -487,12 +487,16 @@
             .faq-open .faq-answer { max-height: 200px; padding-bottom: 1.5rem; }
         </style>
         <script>
-            setTimeout(function() {
+            function playAllVideos() {
                 document.querySelectorAll('video').forEach(function(v) {
                     v.muted = true;
+                    v.playsInline = true;
                     v.play().catch(function() {});
                 });
-            }, 100);
+            }
+            document.addEventListener('DOMContentLoaded', playAllVideos);
+            document.addEventListener('touchstart', function() { playAllVideos(); }, { once: true });
+            document.addEventListener('scroll', function() { playAllVideos(); }, { once: true });
         </script>
     </body>
 </html>
