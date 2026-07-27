@@ -24,7 +24,7 @@
                             <div class="hidden md:flex items-center gap-3 mt-10">
                                 <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest">Sinds 2020</span>
                                 <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest">Dr. Huber Noodtstraat 24</span>
-                                <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest"><span class="text-primary">★</span> 4.9 op Google</span>
+                                <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest"><span class="text-primary">★</span> 5.0 op Google</span>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                         <span class="block text-white/50 font-sans text-xs uppercase tracking-widest mt-2">Tevreden klanten</span>
                     </div>
                     <div class="text-center">
-                        <span class="font-display text-3xl md:text-4xl font-bold text-primary">4.9</span>
+                        <span class="font-display text-3xl md:text-4xl font-bold text-primary">5.0</span>
                         <span class="block text-white/50 font-sans text-xs uppercase tracking-widest mt-2">Google score</span>
                     </div>
                     <div class="text-center">

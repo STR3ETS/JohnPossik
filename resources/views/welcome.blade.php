@@ -152,7 +152,7 @@
                                 <span class="block text-white/50 font-sans text-xs uppercase tracking-widest mt-1">Tevreden klanten</span>
                             </div>
                             <div>
-                                <span class="font-display text-2xl font-bold text-primary">4.9</span>
+                                <span class="font-display text-2xl font-bold text-primary">5.0</span>
                                 <span class="block text-white/50 font-sans text-xs uppercase tracking-widest mt-1">Google score</span>
                             </div>
                         </div>
