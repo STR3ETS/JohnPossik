@@ -24,7 +24,7 @@
                             <div class="hidden md:flex items-center gap-3 mt-10">
                                 <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest">06 84 81 67 37</span>
                                 <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest">Dr. Huber Noodtstraat 24</span>
-                                <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest">Ma t/m za geopend</span>
+                                <span class="border border-white/20 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2 text-white/70 font-sans text-[11px] uppercase tracking-widest">Di t/m za geopend</span>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                             <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
                         </div>
                         <h3 class="text-white font-sans font-semibold text-sm uppercase tracking-widest mb-2">Bellen</h3>
-                        <p class="text-white/60 font-sans text-sm leading-relaxed mb-6">Het snelst voor een afspraak of een korte vraag. Ma t/m za bereikbaar tijdens openingstijden.</p>
+                        <p class="text-white/60 font-sans text-sm leading-relaxed mb-6">Het snelst voor een afspraak of een korte vraag. Di t/m za bereikbaar tijdens openingstijden.</p>
                         <a href="tel:+31684816737" class="inline-block rounded bg-primary text-black font-sans font-semibold text-xs uppercase tracking-widest px-6 py-3 hover:bg-[#d4c4ad] transition">06 84 81 67 37</a>
                     </div>
                     <div class="text-center border border-white/10 rounded bg-gradient-to-b from-white/[0.04] to-transparent p-8 hover:border-primary/30 transition">
@@ -120,12 +120,12 @@
                         <p class="text-primary uppercase tracking-widest text-sm mb-4 font-sans font-medium">Bezoek de salon</p>
                         <h2 class="font-display text-3xl md:text-4xl font-bold text-white tracking-wide mb-6">Openingstijden & locatie</h2>
                         <ul class="space-y-3 font-sans text-sm border border-white/10 rounded bg-gradient-to-b from-white/[0.04] to-transparent p-6 mb-6">
-                            <li class="flex justify-between"><span class="text-white/50">Maandag</span><span class="text-white/70">09:00 – 18:00</span></li>
+                            <li class="flex justify-between"><span class="text-white/50">Maandag</span><span class="text-white/40">Gesloten</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Dinsdag</span><span class="text-white/70">09:00 – 18:00</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Woensdag</span><span class="text-white/70">09:00 – 18:00</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Donderdag</span><span class="text-white/70">09:00 – 18:00</span></li>
-                            <li class="flex justify-between"><span class="text-white/50">Vrijdag</span><span class="text-white/70">09:00 – 18:00</span></li>
-                            <li class="flex justify-between"><span class="text-white/50">Zaterdag</span><span class="text-white/70">09:00 – 17:00</span></li>
+                            <li class="flex justify-between"><span class="text-white/50">Vrijdag</span><span class="text-white/70">09:00 – 21:00</span></li>
+                            <li class="flex justify-between"><span class="text-white/50">Zaterdag</span><span class="text-white/70">09:00 – 18:00</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Zondag</span><span class="text-white/40">Gesloten</span></li>
                         </ul>
                         <div class="relative mb-6">

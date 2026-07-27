@@ -253,7 +253,7 @@
                         @php
                             $faqs = [
                                 ['q' => 'Moet ik een afspraak maken?', 'a' => 'Je bent altijd welkom om langs te lopen, maar om wachttijden te voorkomen raden wij aan om vooraf een afspraak te maken via onze website of telefonisch.'],
-                                ['q' => 'Wat zijn jullie openingstijden?', 'a' => 'Wij zijn geopend van maandag tot en met zaterdag. Maandag t/m vrijdag van 09:00 tot 18:00 en zaterdag van 09:00 tot 17:00. Op zondag zijn wij gesloten.'],
+                                ['q' => 'Wat zijn jullie openingstijden?', 'a' => 'Wij zijn geopend van dinsdag tot en met zaterdag. Dinsdag t/m donderdag en zaterdag van 09:00 tot 18:00, op vrijdag van 09:00 tot 21:00. Op maandag en zondag zijn wij gesloten.'],
                                 ['q' => 'Kan ik producten ook online bestellen?', 'a' => 'Onze webshop is momenteel in ontwikkeling en opent binnenkort. Tot die tijd zijn al onze producten gewoon verkrijgbaar in de salon.'],
                                 ['q' => 'Zijn jullie gespecialiseerd in bepaalde haartypes?', 'a' => 'Bij John Possik zijn we gespecialiseerd in alle haartypes, zowel voor mannen als vrouwen. Of het nu gaat om krullend, steil, dik of dun haar — wij hebben de expertise.'],
                                 ['q' => 'Bieden jullie ook kleuren en behandelingen aan?', 'a' => 'Absoluut! Naast knippen bieden wij een breed scala aan behandelingen waaronder kleuren, highlights, keratine treatments en meer. Bekijk onze diensten pagina voor het volledige aanbod.'],

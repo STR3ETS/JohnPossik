@@ -50,8 +50,9 @@
                     'addressCountry' => 'NL',
                 ],
                 'openingHoursSpecification' => [
-                    ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'opens' => '09:00', 'closes' => '18:00'],
-                    ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => 'Saturday', 'opens' => '09:00', 'closes' => '17:00'],
+                    ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => ['Tuesday', 'Wednesday', 'Thursday'], 'opens' => '09:00', 'closes' => '18:00'],
+                    ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => 'Friday', 'opens' => '09:00', 'closes' => '21:00'],
+                    ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => 'Saturday', 'opens' => '09:00', 'closes' => '18:00'],
                 ],
                 'sameAs' => [
                     'https://www.facebook.com/john.possik.kapsalon/',
@@ -190,12 +191,12 @@
                     <div>
                         <h4 class="text-white font-sans font-semibold text-xs uppercase tracking-widest mb-6">Openingstijden</h4>
                         <ul class="space-y-3 font-sans text-sm">
-                            <li class="flex justify-between"><span class="text-white/50">Maandag</span><span class="text-white/70">09:00 – 18:00</span></li>
+                            <li class="flex justify-between"><span class="text-white/50">Maandag</span><span class="text-white/40">Gesloten</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Dinsdag</span><span class="text-white/70">09:00 – 18:00</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Woensdag</span><span class="text-white/70">09:00 – 18:00</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Donderdag</span><span class="text-white/70">09:00 – 18:00</span></li>
-                            <li class="flex justify-between"><span class="text-white/50">Vrijdag</span><span class="text-white/70">09:00 – 18:00</span></li>
-                            <li class="flex justify-between"><span class="text-white/50">Zaterdag</span><span class="text-white/70">09:00 – 17:00</span></li>
+                            <li class="flex justify-between"><span class="text-white/50">Vrijdag</span><span class="text-white/70">09:00 – 21:00</span></li>
+                            <li class="flex justify-between"><span class="text-white/50">Zaterdag</span><span class="text-white/70">09:00 – 18:00</span></li>
                             <li class="flex justify-between"><span class="text-white/50">Zondag</span><span class="text-white/40">Gesloten</span></li>
                         </ul>
                     </div>
